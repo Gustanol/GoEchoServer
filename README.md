@@ -16,7 +16,7 @@ connection, error := listener.Accept()
 
 ---
 
-In `handleConnection` function, the `buffer` slice is used to keep data while the current connection:
+In `handleConnection` function, the `buffer` slice is used to keep data in current connection:
 ```go
 buffer := make([]byte, 1024)
 ```
